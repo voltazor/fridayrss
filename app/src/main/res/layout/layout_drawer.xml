@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clickable="true">
+
+    <FrameLayout
+        android:id="@+id/header"
+        android:layout_width="match_parent"
+        android:layout_height="160dp"
+        android:background="@color/colorPrimary">
+
+    </FrameLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/header"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/friday"
+            android:text="@string/last_category"
+            android:drawableStart="@drawable/ic_event"
+            style="@style/DrawerItem"/>
+
+        <TextView
+            android:id="@+id/archive"
+            android:text="@string/archive"
+            android:drawableStart="@drawable/ic_archive"
+            style="@style/DrawerItem"/>
+
+        <TextView
+            android:id="@+id/settings"
+            android:text="@string/settings"
+            android:drawableStart="@drawable/ic_settings"
+            android:visibility="gone"
+            style="@style/DrawerItem"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/admin_panel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:layout_alignParentBottom="true"/>
+
+</RelativeLayout>

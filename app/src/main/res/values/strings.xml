@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Friday RSS</string>
+    <string name="loading_rss_failed">Loading RSS failed</string>
+    <string name="internet_connection_unavailable">Internet connection unavailable</string>
+    <string name="please_wait">Please wait</string>
+    <string name="no_content_available">No content available</string>
+    <string name="last_category">Last category</string>
+    <string name="archive">Archive</string>
+    <string name="settings">Settings</string>
+    <string name="yes">Yes, let me in</string>
+    <string name="close">Close</string>
+    <string name="warning_text_title">This app includes inappropriate content.</string>
+    <string name="warning_text_description">By pressing the button below you agree that you want to see content. In other case please don\'t use this application.</string>
+</resources>

@@ -1,0 +1,13 @@
+<resources>
+
+    <dimen name="toolbar_height">@dimen/abc_action_bar_default_height_material</dimen>
+    <dimen name="margin_medium">16dp</dimen>
+    <dimen name="margin_small">4dp</dimen>
+    <dimen name="photo_size">200dp</dimen>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="toolbar_elevation">4dp</dimen>
+    <dimen name="progress_size">30dp</dimen>
+    <dimen name="no_content_icon_size">80dp</dimen>
+
+</resources>
